@@ -19,16 +19,16 @@ $(document).ready(function() {
   $(".bottomMenu").hide();
 	$("#myModal").hide();
 	$(".home_page").show();
-  $(".all_content").show();
+  $("#all_content").show();
+  $("#all").css('opacity', '0.3');
 	/*$(".workcontent").hide();*/
 	
   $("#personal_content").hide();
-  $("#current_content").hide();
   $("#work_content").hide();
-    $("#work").css({
+    /*$("#work").css({
       'border':'2px solid #00BCD4',
       'padding': '3px'
-    });
+    });*/
 	$(".home_nav").click(function(){
     
     /*$(".workcontent").hide();*/
@@ -49,30 +49,33 @@ $(document).ready(function() {
 
   $("#card1").click(function(){
   	$("#myModal").css('display', 'block');
-  	$(".nav_container").css('opacity','.8')
+  	/*$(".nav_container").css('opacity','.8')*/
   })
 
 /* -------- Toggling between projects ------- */
   $(".personal").click(function(){
-    $("#personal").css({
+    /*$("#personal").css({
       'border':'2px solid #00BCD4',
       'padding': '3px'
     });
-    $("#current").css({
+    $("#all").css({
       'border':'none',
       'padding': '5px'
     });
     $("#work").css({
       'border':'none',
       'padding': '5px'
-    });
+    });*/
+      $("#personal").css('opacity', '0.3');
+      $("#work").css('opacity', '0.8');
+      $("#all").css('opacity', '0.8');
     $("#personal_content").show();
-    $("#current_content").hide();
+    $("#all_content").hide();
     $("#work_content").hide()
  
   });  
-  $(".current").click(function(){
-    $("#current").css({
+  $(".all").click(function(){
+    /*$("#all").css({
       'border':'2px solid #00BCD4',
       'padding': '3px'
     });
@@ -83,14 +86,17 @@ $(document).ready(function() {
     $("#work").css({
       'border':'none',
       'padding': '5px'
-    });
+    });*/
+      $("#all").css('opacity', '0.3');
+      $("#personal").css('opacity', '0.8');
+      $("#work").css('opacity', '0.8');
     $("#personal_content").hide();
-    $("#current_content").show();
+    $("#all_content").show();
     $("#work_content").hide();
 
   }); 
   $(".work").click(function(){
-    $("#work").css({
+    /*$("#work").css({
       'border':'2px solid #00BCD4',
       'padding': '3px'
     });
@@ -98,13 +104,16 @@ $(document).ready(function() {
       'border':'none',
       'padding': '5px'
     });
-    $("#current").css({
+    $("#all").css({
       'border':'none',
       'padding': '5px'
-    });
+    });*/
+      $("#work").css('opacity', '0.3');
+      $("#all").css('opacity', '0.8');
+      $("#personal").css('opacity', '0.8');
     $("#personal_content").hide();
-    $("#current_content").hide();
-    $("#work_content").hide();
+    $("#all_content").hide();
+    $("#work_content").show();
   }); 
 /* --------- End Section ---------- */
 
