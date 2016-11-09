@@ -1,0 +1,324 @@
+
+/*------Version where navbar is imposed on background image-------*/
+
+html, body{
+    margin: 0px;
+    background: #FFFFFF;
+    height: 100%;
+    font-family: 'montserratregular', Times, serif;
+}
+
+@font-face {
+    font-family: 'montserratregular';
+    src: url('../fonts/montserrat-regular-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1 {
+  color: #444444;
+  text-align: left;
+  border-bottom: 2px solid #3695D9;
+}
+
+h2, h3, h4 {
+  color: #444444;
+}
+
+p {
+  color: #444444;
+}
+
+p.center {
+  text-align: center;
+}
+
+#container {
+  text-align:center;
+}
+
+/*-----------Navigation----------*/
+
+.nav-wrap {
+  width: 100%;
+  /*background: #FFFFFF; NEW*/
+  min-height: 110px;
+  /*position:fixed; NEW*/
+  z-index: 2;
+  top:0;
+}
+
+.nav {
+  /*min-height: 100px;
+  background: #FFFFFF;
+  position:fixed;
+  width: 80%;
+  z-index: 3;
+  left:10%;*/
+  width: 100%;
+  margin: 0px;
+  text-align: left;
+  /*position: fixed;*/
+  z-index:3;
+
+}
+
+.nav-container {
+  background: none;
+  width: 60%;
+  z-index: 4;
+  cursor: pointer;
+  bottom: 0px;
+  position: relative;
+  float: right;
+  padding-right: 5%;
+}
+
+.nav ul {
+  list-style: none;
+  background: #FFFFFF;
+  text-align: center;
+  padding: 0px;
+  bottom:0px;
+  margin-right: 5px;
+}
+
+.nav img{
+  /*position: fixed;*/
+  margin-top: 1.2em;
+  margin-left: 100px;
+  max-height: 70px;
+  width: auto;
+}
+
+/*.navbar > ul > li {
+  float: right;
+  display: inline-block;
+  position: relative;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 14px;
+}
+.navbar > ul > li > a {
+  padding: 8px 18px;
+  display: inline-block;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.4);
+  text-decoration: none;
+  margin-bottom: 10px;
+  margin-right: 20px;
+}*/
+
+.nav li {
+    float: right;
+    display: inline-block;
+    position: relative;
+    font-size: 10px;
+    /* font-weight: 600; */
+    margin-top: 14px;
+    padding-top: 0;
+    padding-bottom: 0;
+    line-height: 35px;
+    font-size: 15px;
+    padding-right: 1em;
+    /* font-weight: 500; */
+    color: white;
+ font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.nav a {
+  /*display: block;
+  color: #3695D9;
+  text-decoration: none;
+  border-radius:20px;
+  border-top: 2px solid #3695D9;*/
+  padding: 8px 18px;
+  display: inline-block;
+  /*text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.4);*/
+  text-decoration: none;
+  margin-bottom: 10px;
+  margin-right: 20px;
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.nav li:hover > a,
+.nav .current-item > a {
+  text-decoration: none;
+  color: white;
+  /*background-color: #FF6600;*/
+  background-color: #6b472f; /*brown*/
+  opacity:.7;
+  background: #3695D9;
+}
+
+/*.nav a:hover {
+  background: #3695D9;
+  border-radius: 20px;
+  color: #FFFFFF;
+}*/
+
+.content {
+    /*top: 80px;*/
+    position: absolute;
+    background: #FFFFFF;
+    width: 100%;
+    z-index: 1;
+}
+
+.content-box {
+  border-top: 30px solid #FFFFFF;
+  border-bottom: 30px solid #FFFFFF;
+  min-height: 300px;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  background: #FFFFFF;
+}
+
+.content-box-small {
+  border-top: 30px solid #FFFFFF;
+  border-bottom: 30px solid #FFFFFF;
+  min-height: 50px;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  background: #FFFFFF;
+}
+
+
+.content-box-image {
+  /*border-top: 30px solid #FFFFFF;*/
+  min-height: 600px;
+  width: 100%;
+  margin: auto;
+  background-image: 
+    linear-gradient(
+      rgba(54, 149, 217, 0.5),
+      rgba(54, 149, 217, 0.6)
+    ),
+    url(../assets/homecover.jpg);
+  background-size:100%;
+  background-repeat: no-repeat;
+}
+
+.content-box-image p {
+  padding-top: 270px;
+  text-align:center;
+  font-size: 40px;
+  color:#FFFFFF;
+}
+
+.content-box p {
+  text-align: left;
+  padding: 10px;
+}
+.content-box-small p {
+  text-align: left;
+  padding: 10px;
+}
+
+.button {
+  background-color: #3695D9;
+  border-radius: 20px;
+  width: 200px;
+  height: 40px;
+  color: #FFFFFF;
+  font-size: 20px;
+  border: 1px solid #F0F0F0;
+}
+
+
+.foot {
+  height: 30px;
+  background: #3695D9;
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  color: #FFFFFF;
+}
+
+.foot a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+table.contact-form {
+  margin: auto;
+}
+
+table.contact-form td {
+  padding: 5px;
+  text-align:left;
+}
+
+table.survey-results {
+  margin: auto;
+  border-collapse:collapse;
+}
+
+table.survey-results td {
+  padding: 20px;
+  text-align: left;
+}
+
+table.survey-results tr {
+  border-bottom: 1px solid #3695D9;
+}
+
+table.survey-results th {
+  text-align: left;
+  padding: 15px;
+  font-size: 24px;
+  color: #3695D9;
+}
+
+table.survey-question {
+  margin:auto;
+}
+
+table.survey-question td {
+  text-align: left;
+  padding: 10px;
+  font-size: 20px;
+  color: #3695D9;
+}
+
+tr.read {
+  background: #c4c4c4;
+}
+
+tr.unread {
+  background: #ffffff;
+}
+
+img.home-cover {
+  width:100%;
+}
+
+img.example {
+  width: 33%;
+  border-radius: 10px;
+}
+
+ul.features {
+  list-style:none;
+  color: #444444;
+}
+
+ul.features li {
+  display: inline-block;
+  max-height: 75px;
+  margin: 10px;
+  padding: 10px;
+}
+
+table.price {
+  margin:auto;
+}
+
+table.price td {
+  font-size: 40px;
+  padding: 15px;
+  text-align: center;
+  color: #444444;
+}
