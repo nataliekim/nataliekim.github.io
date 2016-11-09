@@ -36,11 +36,7 @@ h3{
     font-family: 'Lato',sans-serif;
     opacity: .8;
     font-size: 13px;
-<<<<<<< HEAD
-    text-align: center;
-=======
     text-align: left;
->>>>>>> a7ee0596975725ee26b022af0de1642f59fe7a58
     text-transform: uppercase;
     letter-spacing: .1em;
     color: whitesmoke;
@@ -99,8 +95,6 @@ h6{
     text-align:left;
 }
 
-<<<<<<< HEAD
-=======
 .header--current {
     font-size: 30px;
     /* line-height: 150px; */
@@ -116,7 +110,6 @@ h6{
   text-transform:uppercase;
 }
 
->>>>>>> a7ee0596975725ee26b022af0de1642f59fe7a58
 .header--skills{
     color: aliceblue;
     font-weight: 600;
@@ -185,16 +178,11 @@ h5{
 }
 
 #web--border{
-<<<<<<< HEAD
-  border-bottom: 3px solid #00BCD4;
-  margin: auto;
-  width: 55%;
-=======
+
   border-bottom: 3px solid lightblue;
   margin: auto;
   /*width: 55%;*/
   width:61.5%;
->>>>>>> a7ee0596975725ee26b022af0de1642f59fe7a58
   /* text-align: left; */
   /* display: block; */
   /* float: left; */
@@ -203,14 +191,6 @@ h5{
 }
 
 #design--border{
-<<<<<<< HEAD
-  border-bottom: 3px solid #00BCD4;
-  margin: auto;
-  width: 40%;
-  /* text-align: left; */
-  /* display: block; */
-  /* float: left; */
-=======
   border-bottom: 3px solid lightblue;
   margin: auto;
   /*width: 40%;*/
@@ -218,21 +198,14 @@ h5{
   /* display: block; */
   /* float: left; */
   width:61.5%;
->>>>>>> a7ee0596975725ee26b022af0de1642f59fe7a58
   margin-left: 90px;
   padding-top: 5px;  
 }
 #python--border{
-<<<<<<< HEAD
-  border-bottom: 3px solid #00BCD4;
-  margin: auto;
-  width: 30%;
-=======
   border-bottom: 3px solid lightblue;
   margin: auto;
   /*width: 30%;*/
   width:61.5%;
->>>>>>> a7ee0596975725ee26b022af0de1642f59fe7a58
   /* text-align: left; */
   /* display: block; */
   /* float: left; */
@@ -240,10 +213,7 @@ h5{
   padding-top: 5px;  
 }
 
-<<<<<<< HEAD
-=======
 
->>>>>>> a7ee0596975725ee26b022af0de1642f59fe7a58
 #holder{
 
 }
@@ -301,14 +271,12 @@ p {
     opacity: .8;
     padding-top:30px;
 }
-<<<<<<< HEAD
-=======
+
 .p_header--title {
     font-size: 18px;
     font-family: helvetica;
     font-weight: 600;
 }
->>>>>>> a7ee0596975725ee26b022af0de1642f59fe7a58
 
 .p--contact {
     color: #222;
@@ -382,13 +350,8 @@ p.center {
 .cards {
   background:#fafafa;
   margin-top:40px;
-<<<<<<< HEAD
-  /*min-height:305px;*/
-  min-height:190px;
-=======
   min-height:305px;
   /*min-height:190px;*/
->>>>>>> a7ee0596975725ee26b022af0de1642f59fe7a58
   max-width:212.5px;
   cursor:pointer;
   -webkit-filter: grayscale(100%);
@@ -411,17 +374,11 @@ p.center {
 p.card_text {
     margin-top: 15px !important;
     /* padding: 0px 5px 0px 15px; */
-<<<<<<< HEAD
-    padding-left: 10px;
-    padding-right: 10px;
-    display:none;
-=======
     padding-left: 20px;
     padding-right: 10px;
     text-align:left;
     /*display:none;*/
     display:block;
->>>>>>> a7ee0596975725ee26b022af0de1642f59fe7a58
 }
 
 .cards:hover{
@@ -516,20 +473,12 @@ p.card_text {
   padding-bottom: 0;
   line-height: 35px;
   font-size: 14px;
-<<<<<<< HEAD
-  padding-right: 1em;
-=======
   /*padding-right: 1em;*/
->>>>>>> a7ee0596975725ee26b022af0de1642f59fe7a58
   color: #222 !important;
   opacity: .9;
   letter-spacing: .1em;
   text-transform: uppercase;
-<<<<<<< HEAD
-  padding-left: 25px;
-=======
   padding-left: 10px;
->>>>>>> a7ee0596975725ee26b022af0de1642f59fe7a58
 
 }
 
@@ -595,15 +544,7 @@ p.card_text {
   background-color:whitesmoke;
 
 }
-<<<<<<< HEAD
 
-.skill_content{
-  background-image: url("../assets/Me2.JPG");
-  opacity: .8;
-  -webkit-filter: grayscale(15%);
-  background-repeat:no-repeat;
-  min-height:400px;
-=======
 .current_content{
   width: 100%;
   background: #f9f9f9;
@@ -624,20 +565,11 @@ p.card_text {
   -webkit-filter: grayscale(15%);
   background-repeat:no-repeat;
   min-height:430px;
->>>>>>> a7ee0596975725ee26b022af0de1642f59fe7a58
   background-color:whitesmoke;
 
 }
 
 .contact_content{
-<<<<<<< HEAD
-  margin-top:-10px;
-  width: 100%;
-  z-index: 1;
-  background: #f9f9f9;
-  min-height:450px;
-  background-color:white; 
-=======
   /*margin-top:-10px;*/
   width: 100%;
   z-index: 1;
@@ -645,7 +577,6 @@ p.card_text {
   background-color:whitesmoke;
   border-bottom: 50px solid whitesmoke;
 
->>>>>>> a7ee0596975725ee26b022af0de1642f59fe7a58
 }
 
 .workcontent {
@@ -655,60 +586,12 @@ p.card_text {
   width: 100%;
   z-index: 1;
   background: #f9f9f9;
-<<<<<<< HEAD
-  min-height:600px;
-=======
   min-height:500px;
->>>>>>> a7ee0596975725ee26b022af0de1642f59fe7a58
   /*background-color:#40454C;*/
   background-color:#2F343B;
-
-
-
-
-
-/*------- Home --------*/
-.content-box-image {
-    background-repeat: no-repeat;
-    min-height: 585px;
-    width: 100%;
-    margin: auto;
-    background-image: linear-gradient( rgba(54, 149, 217, 0.5), rgba(54, 149, 217, 0.6) ), url(../assets/homecover.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-
-.content-box-image p {
-    padding-top: 200px;
-    text-align: center;
-    font-size: 35px;
-    color: #F5F5F5;
-    letter-spacing: 1.3px;
-    font-family: "Lato", sans-serif;
-    text-transform: uppercase;
-    text-align: left;
-    opacity: 1;
-    line-height: normal;
-    padding-left: 80px;
-    padding-right: 20px;
-    width: 100%;
-}
-
-p.banner-header{
-    text-transform: none;
-    font-size: 15px;
-    padding-top: 30px;
-    padding-bottom: 80px;
-    font-family: 'Raleway',sans-serif;
-    line-height: 30px;
-    color: whitesmoke;
 }
 
 
-.content-box p {
-  text-align: left;
-  padding: 10px;
-}
 
 
 
@@ -1013,11 +896,7 @@ input[type=checkbox], input[type=radio] {
     background: rgba(0, 0, 0, 0.8);
   }
 
-<<<<<<< HEAD
 
-
-
-=======
 /*--- Hover credits to https://miketricking.github.io/dist/ -----*/
 .hovereffect {
   width: 100%;
@@ -1196,4 +1075,3 @@ input[type=checkbox], input[type=radio] {
   opacity: 1;
   filter: alpha(opacity=100);
 }
->>>>>>> a7ee0596975725ee26b022af0de1642f59fe7a58
