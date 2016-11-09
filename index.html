@@ -50,9 +50,10 @@
       </div>
       <div class="collapse navbar-collapse navHeaderCollapse">
         <ul class="nav navbar-nav navbar-right">  
-            <li><a class="contact_nav scroll" href="#contact">Contact</a></li>  
+            <li><a class="contact_nav scroll" href="#contact_content">Contact</a></li>  
+            <li><a class="current_nav scroll" href="#current_content">Current</a></li>
             <li><a class="work_nav scroll" href="#workcontent">Portfolio</a></li>
-            <li><a class="about_nav scroll" href="#about">About</a></li>
+            <li><a class="about_nav scroll" href="#about_content">About</a></li>
             <!--<li><a class="home_nav scroll" href="#home">Home</a></li>-->
             <li style="float: left; margin-left: 60px;"><a class="home_nav scroll bottomMenu" href="#home"><i style="font-size:15px; margin-right:5px;" class="fa fa-chevron-up" aria-hidden="true"></i>Home</a></li>
         </ul>
@@ -414,42 +415,45 @@
 
 <!-- PORTFOLIO END SECTION --> 
   <!-- Experience -->
-    <div id="experience" class="about_content">
-
-    <div class="row">
-      <div class="col-md-6" style="background: whitesmoke; min-height: 450px;">
-        <h4>Current Projects</h4>
-        <div id="border" style="width:10%;"></div>
-        <p class="p_header">I am currently a Senior at Cornell University studying Economics & Information Science. Upon graduation, I hope to attain a Master of Professional Studies in <b>Information Science.</b>
-        </p>
-
+    <div class="current_content" id="current">
+      <div class="row">
+        <h6 class="header--current">Current Projects</h6>
+        <div id="border" style="width:10%;float: left;margin-left: 160px;"></div>
       </div>
-      <div class="col-md-6" style="background: whitesmoke; min-height:450px;">
-        <p class="about_p">I am a
-          <br><b>front-end engineer</b>,
-          <br>but I'm also interested
-          <br>in <b>UI/UX design</b> & <b>product management</b>
-          <br>
-          <button class="button" value="Open Work Order" onClick="window.open('../assets/ResumePic.pdf');">resume</button>
-        </p>
+      <div class="row">
+        <div class="col-md-6" style="background: whitesmoke; min-height: 450px;">
+          <!--<h4>Current Projects</h4>
+          <div id="border" style="width:10%;"></div>-->
+          <p class="p_header p_header--title" style="margin-left:60px;">Spotify Case Study
+          </p>
+          <p class="p_header" style="margin-left:60px;">To learn about product design in a real world setting, I have been writing a case study on Spotify. In my study, I identify a core problem and design a solution by exploring the problem space and conducting market research, as well as user interviews. This project is still in progress, but if you'd like to see what I've done so far, click <a href="#" onclick='window.open("https://paper.dropbox.com/doc/Process-Doc-How-do-I-find-new-music-Ux0cm1S8Y7kg0D0ILvSZ6?t=401930423764042#:t=401930423764042");return false;'>here</a> for my process.
+          </p>
+
+        </div>
+        <div class="col-md-6" style="background: whitesmoke; min-height:450px;">
+          <p class="p_header p_header--title" style="margin-left: -50px;">Coffee Project
+          </p>
+          <p class="p_header" style="margin-left:-50px;margin-right:60px;">In preparation for the <a href="#" onclick='window.open("https://chi2017.acm.org/designcompetition.html");return false;'>Chi Student Design Competition</a>, I have been working with a fellow student to design an interface/interactive tool for coffee cooperative usage. The lack of transparency in coffee production costs has led to a gap in knowledge for policymakers, farmers, and the coffee industry in arriving at fair prices that allow growers to run businesses profitably in the long-run. <a href="mailto:yk493@cornell.edu" style="font-size: 15px; font-family: 'lato',sans-serif; margin-top: -20px;">Email me</a> to connect and hear more about this.</p>
+        </div>
       </div>
-  </div>
   </div>
   <!-- END EXPERIENCE -->
   <!-- IMAGE -->
-  <div id ="skills" class="about_content" >
+  <div id ="skills" class="skills_content" >
     <div class="row">
       
       <div class="col-md-6 skill_content" >
       </div>
-      <div class="col-md-6" style="min-height:400px; background: #222;">
-        <H6 class="header--skills"> Things I Like </H6>
-        <br>
+      <div class="col-md-6" style="min-height:430px; background: #2F343B;">
+        <H6 class="header--skills"> Skills </H6>
+        
         <<p class="p--skills">Web Development (HTML, CSS, Javascript, Jquery)</p>
         <div id="web--border"></div>
         <p class="p--skills">Design</p>
         <div id="design--border"></div>
         <p class="p--skills">Python</p>
+        <div id ="python--border"></div>
+        <p class="p--skills">Sketch & Illustrator</p>
         <div id ="python--border"></div>
         <!--<a href="https://www.youtube.com/watch?v=MKXGpD-5woU"><p class="p--skills">Hip-Hop Dance & Choreography</p></a>
         <p class="p--skills">Learning to Cook via Youtube</p>
@@ -460,16 +464,57 @@
   <!-- END SECTION -->
 
 <div class="contact_content" id ="contact">
-  <H4> Contact </H4>
+  <div class="row" style="min-height:50px;background:whitesmoke;">
+  </div>
+  <div class="col-sm-3" style="background-color:whitesmoke;height:400px;">
+  </div>
+  <div class="col-sm-6" style="background-color:#2F343B;height:400px">
+
+    <div class="hovereffect">
+      <H6 class="header--contact"> Contact </H6>
+        <!--<p class="p--contact"> If you would like to connect with me, feel free to email me at: <a href="mailto:yk493@cornell.edu" style="font-size: 15px; font-family: 'lato',sans-serif; margin-top: -20px;">yk493@cornell.edu</a>
+        </p>-->
+        <img class="img-responsive" src="" alt="">
+            <div class="overlay">
+                <h2>yk493@cornell.edu</h2>
+                <p class="set1">
+                    <a href="mailto:yk493@cornell.edu">
+                        <i class="fa fa-envelope" style="font-size:16px"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/yoohyeonkim">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+                </p>
+                <hr>
+                <hr>
+                <p class="set2">
+                    <a href="https://instagram.com/ykeeem">
+                        <i class="fa fa-instagram"></i>
+                    </a>
+                    <a href="https://www.facebook.com/BreakFreeHipHop/?fref=ts">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                </p>
+            </div>
+    </div>
+  </div>
+
+  <div class="col-sm-3" style="background-color:whitesmoke;height:400px;">
+  </div>
+  <div class="row" style="max-height:50px;background:whitesmoke;">
+  </div>
+
+
+  <!--<H4> Contact </H4>
   <p class="p--contact"> If you would like to connect with me, feel free to email me at:</p>
   <div class="contact_icon">
-    <p><i class="fa fa-envelope fa-4" aria-hidden="true" style="font-size: 15px;
-    margin-right: 5px;"></i>
-    <a href="mailto:yk493@cornell.edu">yk493@cornell.edu</a>
+    <p>
+    <a href="mailto:yk493@cornell.edu" style="font-size: 15px; font-family: 'lato',sans-serif; margin-top: -20px;">yk493@cornell.edu</a>
     </p>
-  </div>
+  </div>-->
   
 </div>
+
 
 
 
