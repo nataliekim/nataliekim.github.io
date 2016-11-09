@@ -108,6 +108,7 @@ h6{
 .header--contact{
   font-size:30px;
   text-transform:uppercase;
+  text-align:center;
 }
 
 .header--skills{
