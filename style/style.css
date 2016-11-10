@@ -546,6 +546,10 @@ p.card_text {
 
 }
 
+#all_content{
+  width:970px;
+}
+
 .current_content{
   width: 100%;
   background: #f9f9f9;
