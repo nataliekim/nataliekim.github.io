@@ -579,6 +579,7 @@ p.card_text {
   background-repeat:no-repeat;
   min-height:430px;
   background-color:whitesmoke;
+  background-size:cover;
 
 }
 
