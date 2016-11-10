@@ -550,6 +550,14 @@ p.card_text {
   width:970px;
 }
 
+#work_content{
+  width:970px;
+}
+
+#personal_content{
+  width:970px;
+}
+
 .current_content{
   width: 100%;
   background: #f9f9f9;
