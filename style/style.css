@@ -547,15 +547,15 @@ p.card_text {
 }
 
 #all_content{
-  width:970px;
+  width: 970px;
 }
 
 #work_content{
-  width:970px;
+  width: 970px;
 }
 
 #personal_content{
-  width:970px;
+  width: 970px;
 }
 
 .current_content{
@@ -573,7 +573,7 @@ p.card_text {
 
 
 .skill_content{
-  background-image: url("../assets/Skills.JPG");
+  background-image: url("../assets/skills.jpg");
   opacity: .8;
   -webkit-filter: grayscale(15%);
   background-repeat:no-repeat;
