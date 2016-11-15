@@ -8,6 +8,7 @@ html, body{
     font-size: 15px;
     width: 100%;
     padding: 0px;
+
 }
 
 @font-face {
@@ -524,6 +525,10 @@ p.card_text {
   opacity:.6;*/
   color: #777 !important;
 
+}
+
+.home_page {
+  overflow-x:hidden;
 }
 .homecontent {
     width: 100%;
