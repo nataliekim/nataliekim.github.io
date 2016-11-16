@@ -581,7 +581,7 @@ p.card_text {
 
 
 .skill_content{
-  background-image: url('assets/Me4.jpg');
+  background-image: url('../assets/Me4.jpg');
   opacity: .8;
   -webkit-filter: grayscale(15%);
   background-repeat:no-repeat;
