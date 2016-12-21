@@ -367,12 +367,35 @@ p.center {
   filter: grayscale(100%);
 }
 
+.current_cards{
+  background:#fafafa;
+  margin-top:40px;
+  max-height:400px;
+  /*min-height:190px;*/
+  max-width:450px;
+  cursor:pointer;
+  -webkit-filter: grayscale(100%);
+  -webkit-transition: .3s ease-in-out;
+  -moz-filter: grayscale(100%); 
+  -moz-transition: .3s ease-in-out;
+  -o-filter: grayscale(100%); 
+  -o-transition: .3s ease-in-out;
+  filter: grayscale(100%);
+}
 .card_img{
   position: static !important;
   margin-top: 0px !important;
   height: 135px;
   max-width: 100% !important;
   padding-left:0px !important;
+}
+.current_card_img{
+  position: static !important;
+  margin-top: 0px !important;
+  height: 350px;
+  max-width:100% !important;
+  padding-left:0px !important;
+
 }
 
 p.card_text {
@@ -395,6 +418,16 @@ p.card_text {
   -o-transition: .3s ease-in-out;
   filter: grayscale(0%);  
 }
+.current_cards:hover{
+    box-shadow: 0 13px 25px 0 rgba(0, 0, 0, 0.3), 0 11px 7px 0 rgba(0, 0, 0, 0.19);
+  -webkit-filter: grayscale(0%);
+  -webkit-transition: .3s ease-in-out;
+  -moz-filter: grayscale(0%);
+  -moz-transition: .3s ease-in-out;
+  -o-filter: grayscale(0%);
+  -o-transition: .3s ease-in-out;
+}
+
 /*-----------Navigation----------*/
 
 .bottomMenu{
@@ -571,6 +604,10 @@ p.card_text {
   background: #f9f9f9;
   min-height:400px;
   background-color:whitesmoke;
+}
+
+#current2{
+  background-color:white !important;
 }
 .skills_content{
   width: 100%;
