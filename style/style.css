@@ -8,6 +8,7 @@ html, body{
     font-size: 15px;
     width: 100%;
     padding: 0px;
+    overflow-x:hidden;
 
 }
 
@@ -500,13 +501,16 @@ p.card_text {
     padding-left:7%;
   }
 
+.float_left{
+  float:left !important;
+}
 .nav li {
   float: right;
   display: inline-block;
   position: relative;
   font-size: 10px;
   font-weight: 600;
-  margin-top: 50px;
+  margin-top: 60px;
   padding-bottom: 0;
   line-height: 35px;
   font-size: 14px;
@@ -635,7 +639,10 @@ p.card_text {
   min-height:500px;
   background-color:whitesmoke;
   border-bottom: 50px solid whitesmoke;
+}
 
+.contact_icons{
+  margin-left: 150px !important;
 }
 
 .workcontent {

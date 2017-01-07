@@ -145,6 +145,7 @@ $(document).scroll(function() {
   } else {
     $('.bottomMenu').fadeOut();
   }
+  $('.contact_icons').css("margin-left","0px");
 });
 $('a[href=#top]').click(function(){
  $('body','html').animate({
