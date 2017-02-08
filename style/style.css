@@ -399,6 +399,7 @@ p.center {
 
 }
 
+
 p.card_text {
     margin-top: 15px !important;
     /* padding: 0px 5px 0px 15px; */
@@ -564,9 +565,7 @@ p.card_text {
 
 }
 
-.home_page {
-  overflow-x:hidden;
-}
+
 .homecontent {
     width: 100%;
     z-index: 1;
