@@ -8,12 +8,13 @@ $(document).ready(function() {
   });
 });
 
-/*$(document).ready(function() {
-	 $('a[href=#]').click(function(){
-	     $('html, body').animate({scrollTop:0}, 'slow');
-	     return false;
-	});
-}); */
+// $(document).ready(function() {
+// 	 $('a[href=#]').click(function(){
+// 	     $('html, body').animate({scrollTop:0}, 'slow');
+// 	     return false;
+// 	});
+// }); 
+
 
 $(document).ready(function() {
   $(".bottomMenu").hide();
